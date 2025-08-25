@@ -2,15 +2,18 @@
 <html lang="tr">
 
 <head>
+  <title>Workintech Teknolojik Yemekler</title>
+
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
-  <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
+  <link rel="stylesheet" href="./style.css">  
 
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Barlow:wght@400;500;600;700&family=Quattrocento:wght@400;700&family=Satisfy&display=swap"
     rel="stylesheet">
-  <title>Workintech Teknolojik Yemekler</title>
+  
 </head>
 
 <body>
@@ -20,23 +23,26 @@
       <img src="assets/iteration-1/logo.svg" alt="Teknolojik Yemekler" />
       </div>  
   </header>
+  <main>
 
-  <div class="hero-container">
+  <section class="hero-container">
     <p>fırsatı kaçırma</p>
     <h1>KOD ACIKTIRIR, PİZZA DOYURUR</h1>
     <button class="order-pizza-button">ACIKTIM</button>
-  </div>
+  </section>
 
-  <div class="nav-items">
-    <div class="yeni-kore"><img src="assets/iteration-2/icons/1.svg" alt="yeni-kore" />YENİ! Kore</div>
-    <div class="pizza"><img src="assets/iteration-2/icons/2.svg" alt="pizza" />Pizza</div>
-    <div class="burger"><img src="assets/iteration-2/icons/3.svg" alt="burger" />Burger</div>
-    <div class="kizartmalar"><img src="assets/iteration-2/icons/4.svg" alt="kizartmalar" />Kızartmalar</div>
-    <div class="fast-food"><img src="assets/iteration-2/icons/5.svg" alt="fast-food" />Fast Food</div>
-    <div class="gazli-icecek"><img src="assets/iteration-2/icons/6.svg" alt="gazli-icecek" />Gazlı İçecek</div>
-  </div>
+  <nav class="nav-items">
+    <ul>
+      <li><a href="#"><img src="assets/iteration-2/icons/1.svg" alt="yeni-kore" />YENİ! Kore</li>
+      <li><a href="#"><img src="assets/iteration-2/icons/2.svg" alt="pizza" />Pizza</li>
+      <li><a href="#"><img src="assets/iteration-2/icons/3.svg" alt="burger" />Burger</li>
+      <li><a href="#"><img src="assets/iteration-2/icons/4.svg" alt="kizartmalar" />Kızartmalar</li>
+      <li><a href="#"><img src="assets/iteration-2/icons/5.svg" alt="fast-food" />Fast Food</li>
+      <li><a href="#"><img src="assets/iteration-2/icons/6.svg" alt="gazli-icecek" />Gazlı İçecek</li>
+    </ul>
+  </nav>
 
-  <div class="card-container">
+  <section class="card-container">
     <div class="main-card">
       <img src="assets\iteration-2\pictures\food-1.png" alt="Pizza 1" />
       <h2>Özel<br> Lezzetus</h2>
@@ -57,20 +63,21 @@
       <p class="price">₺60</p>
       <button class="add-to-cart-button">SİPARİŞ VER</button>
     </div>
-  </div>
-  <div class="menu-container">
+  </section>
+
+  <section class="menu-container">
     <p class="section-title">en çok paketlenen menüler</p>
     <h2 class="section-heading">Acıktıran Kodlara Doyuran Lezzetler</h2>
 
-    <div class="nav-items">
-      <div class="yeni-kore"><img src="assets/iteration-2/icons/1.svg" alt="yeni-kore" />YENİ! Kore</div>
-      <div class="pizza"><img src="assets/iteration-2/icons/2.svg" alt="pizza" />Pizza</div>
-      <div class="burger"><img src="assets/iteration-2/icons/3.svg" alt="burger" />Burger</div>
-      <div class="kizartmalar"><img src="assets/iteration-2/icons/4.svg" alt="kizartmalar" />Kızartmalar</div>
-      <div class="fast-food"><img src="assets/iteration-2/icons/5.svg" alt="fast-food" />Fast Food</div>
-      <div class="gazli-icecek"><img src="assets/iteration-2/icons/6.svg" alt="gazli-icecek" />Gazlı İçecek</div>
+    <div class="btn-items">
+      <button class="btn-item"><img src="assets/iteration-2/icons/1.svg" alt="yeni-kore" />YENİ! Kore</button>
+      <button class="btn-item"><img src="assets/iteration-2/icons/2.svg" alt="pizza" />Pizza</button>
+      <button class="btn-item"><img src="assets/iteration-2/icons/3.svg" alt="burger" />Burger</button>
+      <button class="btn-item"><img src="assets/iteration-2/icons/4.svg" alt="kizartmalar" />Kızartmalar</button>
+      <button class="btn-item"><img src="assets/iteration-2/icons/5.svg" alt="fast-food" />Fast Food</button>
+      <button class="btn-item"><img src="assets/iteration-2/icons/6.svg" alt="gazli-icecek" />Gazlı İçecek</button>
     </div>
-  </div>
+  </section>
 
   <div class="product-cards">
 
@@ -103,11 +110,12 @@
       </div>
       <div class="product-price">₺60</div>
     </div>
-  </div>
 
+  </div>
+  </main>
   <footer class="footer">
     <div class="footer-container">
-      <div class="footer-content">
+      <section class="footer-content">
 
         <div class="footer-section">
           <img src="assets/iteration-2/footer/logo-footer.svg" alt="Teknolojik Yemekler" />
@@ -120,8 +128,8 @@
           </div>
         </div>
 
-        <div class="footer-section">
-          <h4>Hot Menu</h4>
+        <nav class="footer-section">
+          <h2>Hot Menu</h2>
           <ul class="hot-menu">
             <li><a href="#">Terminal Pizza</a></li>
             <li><a href="#">5 Kişilik Hackathlon Pizza</a></li>
@@ -130,7 +138,7 @@
             <li><a href="#">Testler Geçti Mutlu Burger</a></li>
             <li><a href="#">Position Absolute Acı Burger</a></li>
           </ul>
-        </div>
+        </nav>
 
         <div class="footer-section">
           <h4>Instagram</h4>
@@ -148,7 +156,7 @@
           <p>&copy; 2023 Teknolojik Yemekler.</p>
           <p>Hakları by Sinan Faik Özdemir</p>
         </div>
-      </div>
+      </section>
     </div>
   </footer>
 
